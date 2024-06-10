@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="navbar">
+        <h2>SmartLibrary</h2>
+        <a href="admin.html">Admin</a>
+        <a href="login.html">Login</a>
+        <a href="signup.html">Register</a>
+        <a href="homepage.html">Home</a>
+</div>
+    <div class="bookinp">
+
+        <h1>Add A Book</h1>
+        <input type="text" placeholder="Enter Name Of Book"><br>
+        <input type="text" placeholder="Enter Author Name"><br>
+        <input type="text" placeholder="Enter Reader Name"><br>        
+        <input type="number" placeholder="Enter Roll No."><br>        
+        <input type="text" placeholder="Enter Issue Date" onfocus="(this.type = 'date')"><br>
+        <input type="text" placeholder="Submition Last Date" onfocus="(this.type = 'date')"><br>
+        <button>Add</button>
+    </div>
+    <div class="dashboard">
+        <div><span>Book Name</span><span>Author Name</span><span>Reader Name</span><span>Roll No.</span><span>Issue Date</span><span>Submission Last Date</span></div>
+
+    </div>
+    <script src="dashboard.js"></script>
+</body>
+</html>
