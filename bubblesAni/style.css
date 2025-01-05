@@ -1,0 +1,21 @@
+#container{
+    height: 100vh;
+    background-color: black;
+}
+.circle{
+    height:100px;
+    width: 100px;
+    scale: 1;
+    border-radius: 50%; 
+    border: 1px solid white;    
+    position: absolute;
+    animation: display 2s ease-in 0s 1 normal;
+}
+@keyframes display{
+    from {
+        scale: 1;
+    }
+    to{
+        scale:0.7
+    }
+}
